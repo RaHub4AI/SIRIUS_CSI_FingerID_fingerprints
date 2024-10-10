@@ -58,7 +58,7 @@ Edit the `nextflow.config` file to specify the input data path, batch size, and 
 params.data = 'path/to/your/input_data.tsv'
 params.batch_size = 10000 // Number of SMILES entries to process in one batch
 params.results = 'path/to/output_directory'
-params.sirius6_fingerid = './data/fingerid_data.txt' // File from SIRIUS API SDK
+params.sirius6_fingerid = 'path/to/fingerid_data.txt' // File from SIRIUS API SDK
 ```
 
 ### 5. Run the Pipeline
